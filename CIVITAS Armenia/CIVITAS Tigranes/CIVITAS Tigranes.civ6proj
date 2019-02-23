@@ -22,9 +22,10 @@
     <RootNamespace>CIVITAS Tigranes</RootNamespace>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Mod" title="CIVITAS [ICON_GOVERNMENT] Armenia" id="e60d9e7a-9ae9-4a43-8b00-8cfa98c997e2" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Tigranes_Setup_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Config.sql</File></UpdateDatabase><UpdateText id="Tigranes_Setup_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Localisation.sql</File></UpdateText><UpdateIcons id="Tigranes_Setup_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Icons.sql</File></UpdateIcons><UpdateColors id="Tigranes_Setup_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Colors.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Tigranes_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Leader.sql</File><File>Core/Tigranes_II_UA.sql</File><File>Core/Tigranes_II_Agenda.sql</File><File>Core/Tigranes_II_Strategy.sql</File><File>Core/Tigranes_II_ModSupport.sql</File></UpdateDatabase><UpdateText id="Tigranes_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Localisation.sql</File></UpdateText><UpdateIcons id="Tigranes_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Icons.sql</File></UpdateIcons><UpdateColors id="Tigranes_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Colors.sql</File></UpdateColors><AddGameplayScripts id="Tigranes_Scripts"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Scripts.lua</File></AddGameplayScripts><UpdateDatabase id="Tigranes_XP1_DB"><Properties><LoadOrder>115</LoadOrder></Properties><File>Core/Tigranes_II_UA_XP1.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Tigranes_DB"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Leader.sql</File><File>Core/Tigranes_II_UA.sql</File><File>Core/Tigranes_II_Agenda.sql</File><File>Core/Tigranes_II_Strategy.sql</File><File>Core/Tigranes_II_ModSupport.sql</File></UpdateDatabase><UpdateText id="Tigranes_Text"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Localisation.sql</File></UpdateText><UpdateIcons id="Tigranes_Icons"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Icons.sql</File></UpdateIcons><UpdateColors id="Tigranes_Colors"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Colors.sql</File></UpdateColors><AddGameplayScripts id="Tigranes_Scripts"><Properties><LoadOrder>110</LoadOrder></Properties><File>Core/Tigranes_II_Scripts.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -72,9 +73,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Tigranes_II_UA.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\Tigranes_II_UA_XP1.sql">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
